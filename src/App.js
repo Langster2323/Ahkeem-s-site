@@ -32,7 +32,7 @@ function App() {
                 <div className="service">
                     <h3>Development</h3>
                     <p>For nearly three years I've been a front end developer here in the Austin, 
-                      texas. Building Single Page Applications out of ReactJS and AngularJS, 
+                      Texas. Building Single Page Applications out of ReactJS and AngularJS, 
                       I have experience working within the education, civil engineering, 
                       public sector and health care blockchain industries. </p>
                 </div> 
@@ -44,8 +44,8 @@ function App() {
                 
                 <div className="service">
                     <h3>React</h3>
-                    <p>I'm a more UI focused developer. I'm familiar with React 
-                      and Redux principles and patterns, I have experience in the 
+                    <p>I'm more of a UI focused developer. I'm familiar with React 
+                      and Redux principles and patterns, I have experience in 
                       React building hierarchy stateful components for SPA's. I’m 
                       proficient in using the state management tool Redux to support 
                       dispatching actions and manage state throughout the entire application.  
@@ -67,7 +67,7 @@ function App() {
                  up in Chicago. Sometimes you'll catch me doing a move or two.</p>
                <p>I love traveling, I've traveled all over the world since I can remember, I was fortuante to experience many 
                  different beautiful cultures and make friends nearly on every continent. I love Japanese culture, 
-                 I've visited Japan three times already to visit my wifes family and our friends.</p>
+                 I've visited Japan three times already to visit my wife's family and our friends.</p>
                  <p>When I'm not at the computer I'm out playing 2v2 or 4v4 sand volleyball with my wife and our 
                  friends. I lead a group that meets nearly every night that likes to play 2v2 and 4v4 sand volleyball.
                  It's pretty tough to get myself off the courts!</p>
