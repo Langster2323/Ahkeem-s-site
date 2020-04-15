@@ -8,8 +8,6 @@ import strength from './assets/strength.jpg';
 import passion from './assets/passion.jpg';
 import kyoto from './assets/kyoto.jpg';
 import laptop from './assets/laptop.jpg';
-import great from './assets/great.jpg';
-import africa from './assets/africa.jpg';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
