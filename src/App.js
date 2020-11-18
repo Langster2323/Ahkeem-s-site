@@ -67,7 +67,7 @@ function App() {
            <p className="section__subtitle section__subtitle--about">Developer based out of ATX</p>
            
            <div className="about-me__body">
-               <p>Hey test for visiting my page, here's a little bit about me. I'm originally from Chicago
+               <p>Hey thanks for visiting my page, here's a little bit about me. I'm originally from Chicago
                  I moved to Austin in the summer of 2016 after receiving my BA from Eastern Illinois University
                  to follow my dream and passion to become a Software Developer. I use to break dance with my dance crew 
                  up in Chicago. Sometimes you'll catch me doing a move or two.</p>
