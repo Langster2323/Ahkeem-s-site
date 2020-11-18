@@ -443,6 +443,9 @@ p.effect-box:before {
   a {
       text-decoration: none;
   }
+  .txt-white {
+      color: #fff;
+  }
 
 
 /* footer */
