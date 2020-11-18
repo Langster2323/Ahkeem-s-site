@@ -88,7 +88,8 @@ function App() {
             <div className="portfolio">
                 
                 <a href="https://github.com/Langster2323/Tic-Tac-Toe-Minimax" className="portfolio__item">
-                    <img src={tea} alt="" className="portfolio__img" />
+                    <h5 className="section__subtitle section__subtitle--work">Tic-Tac-Toe Minimax</h5>
+                    <p>Going up against a computer in some tic-tac-toe. Built in JavaScript</p>
                 </a>
                 
                 
