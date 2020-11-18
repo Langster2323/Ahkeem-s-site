@@ -440,6 +440,10 @@ p.effect-box:before {
       transform: scale(1);
   }
 
+  a {
+      text-decoration: none;
+  }
+
 
 /* footer */
 
