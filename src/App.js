@@ -89,7 +89,7 @@ function App() {
                 
                 <a href="https://github.com/Langster2323/Tic-Tac-Toe-Minimax" className="portfolio__item">
                     <h5 className="section__subtitle section__subtitle--work">Tic-Tac-Toe Minimax</h5>
-                    <p>Going up against a computer in some tic-tac-toe. Built in JavaScript</p>
+                    <p className="effect-box">Going up against a computer in some tic-tac-toe. Built in JavaScript</p>
                 </a>
                 
                 

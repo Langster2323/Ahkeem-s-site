@@ -420,6 +420,27 @@ header {
     opacity: .5;
 }
 
+p.effect-box:before {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    -webkit-transform: scale(1,0);
+      transform: scale(1,0);
+  }
+  
+  p.effect-box:after {
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    -webkit-transform: scale(0,1);
+      transform: scale(0,1);
+  }
+  
+  p.effect-box:hover:after,
+  p.effect-box:hover:before {
+    opacity: 1;
+      -webkit-transform: scale(1);
+      transform: scale(1);
+  }
+
 
 /* footer */
 
