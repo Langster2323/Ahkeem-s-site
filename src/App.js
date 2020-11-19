@@ -5,17 +5,15 @@ import potato from './assets/potato-japan.jpg';
 import tea from './assets/tea.jpg';
 import tianshu from './assets/tianshu.jpg';
 import strength from './assets/strength.jpg';
-import passion from './assets/passion.jpg';
 import kyoto from './assets/kyoto.jpg';
-import laptop from './assets/laptop.jpg';
 
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import { TweenMax, Power3, gsap, } from 'gsap';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDeviantart, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faAngleDoubleLeft, faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { useIntersection } from 'react-use';
 
 library.add(faGithub, faLinkedin, faArrowLeft, faArrowRight)
