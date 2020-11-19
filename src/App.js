@@ -22,7 +22,7 @@ function App() {
             <h1 className="section__title section__title--intro">
                 Hi, I am <strong>Ahkeem Lang</strong>
             </h1>
-            <p className="section__subtitle section__subtitle--intro">Front End Web Developer</p>
+            <p className="section__subtitle section__subtitle--intro">Full Stack Engineer | Data Engineer</p>
             <img src={ahkeem} alt="Ahkeem" className="intro__img" />
         </section>
 
@@ -67,8 +67,8 @@ function App() {
            <p className="section__subtitle section__subtitle--about">Developer based out of ATX</p>
            
            <div className="about-me__body">
-               <p>Hey thanks for visiting my page, here's a little bit about me. I'm originally from Chicago
-                 I moved to Austin in the summer of 2016 after receiving my BA from Eastern Illinois University
+               <p>Here's a little bit about me. I'm originally from Chicago
+                 I moved to Austin in the summer of 2016 after receiving my BA in Philosophy from Eastern Illinois University
                  to follow my dream and passion to become a Software Developer. I use to break dance with my dance crew 
                  up in Chicago. Sometimes you'll catch me doing a move or two.</p>
                <p>I love traveling, I've traveled all over the world since I can remember, I was fortuante to experience many 
@@ -76,7 +76,7 @@ function App() {
                  I've visited Japan three times already to visit my wife's family and our friends.</p>
                  <p>When I'm not at the computer I'm out playing 2v2 or 4v4 sand volleyball with my wife and our 
                  friends. I lead a group that meets nearly every night that likes to play 2v2 and 4v4 sand volleyball.
-                 It's pretty tough to get myself off the courts!</p>
+                 It's pretty tough to get us off the courts!</p>
            </div>
            
            <img src={potato} alt="Jane leaning against a bus" className="about-me__img" />
@@ -86,38 +86,39 @@ function App() {
             <p className="section__subtitle section__subtitle--work">A selection of my range of work</p>
             
             <div className="portfolio">
-                <div>
+                <figure>
                     <a href="https://github.com/Langster2323/Tic-Tac-Toe-Minimax" className="portfolio__item">
                         <img src={tea} alt="" className="portfolio__img" />
-                        <h5 className="effect-box section__subtitle section__subtitle--work">Tic-Tac-Toe Minimax</h5>
-                        <p className="txt-white effect-box">Going up against a computer in some tic-tac-toe. Built in JavaScript</p>
+                        <figcaption className="caption">Tic-Tac-Toe Minimax
+                        <br /> <span className="sub__caption">Built with JavaScript</span></figcaption>
                     </a>
-                </div>
+                </figure>
                 
-                
-                <a href="https://github.com/Langster2323/reacted-auth" className="portfolio__item">
-                    <img src={tianshu} alt="" className="portfolio__img" />
-                </a>
-                
-                
+                <figure>
+                    <a href="https://github.com/Langster2323/reacted-auth" className="portfolio__item">
+                        <img src={tianshu} alt="" className="portfolio__img" />
+                        <figcaption className="caption">React Authentication
+                        <br /> <span className="sub__caption">Authenticated user in ReactJS.</span></figcaption>
+                        
+                    </a>
+                </figure>
+                <figure>
                 <a href="https://github.com/Langster2323/RSVP-React" className="portfolio__item">
-                    <img src={strength} alt="" className="portfolio__img" />
-                </a>
-                
-                
-                <a href="https://github.com/Langster2323/External-Bridge-" className="portfolio__item">
-                    <img src={passion} alt="" className="portfolio__img" />
-                </a>
-                
-                
-                <a href="https://github.com/Langster2323/Courses" className="portfolio__item">
                     <img src={kyoto} alt="" className="portfolio__img" />
+                    <figcaption className="caption move-horizontal">RSVP
+                    <br /> <span className="sub__caption">A React and Redux app to rsvp 
+                    for your next event.</span></figcaption>
+                    
                 </a>
-                
-                
-                <a href="https://github.com/Langster2323/Ahkeem-s-Portfolio" className="portfolio__item">
-                    <img src={laptop} alt="" className="portfolio__img" />
+                </figure>
+                <figure>
+                <a href="https://github.com/Langster2323/Tabikko-" className="portfolio__item">
+                    <img src={strength} alt="" className="portfolio__img" />
+                    <figcaption className="caption move-horizontal">Exercise Log
+                    <br /> <span className="sub__caption">MERN stack app to log your workouts.</span></figcaption>
+                    
                 </a>
+                </figure>
             </div>
         </section>
         <footer className="footer">

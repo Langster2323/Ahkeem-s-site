@@ -399,10 +399,13 @@ header {
 }
 
 .portfolio__item {
+    background: var(--clr-accent);
     overflow: hidden;
 }
 
 .portfolio__img {
+    width: 260px;
+    height: 200px;
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
@@ -418,34 +421,6 @@ header {
     transform: scale(1.2);
     opacity: .5;
 }
-
-a p.effect-box:before {
-    border-left: 1px solid;
-    border-right: 1px solid;
-    -webkit-transform: scale(1,0);
-      transform: scale(1,0);
-  }
-  
-  a p.effect-box:after {
-    border-bottom: 1px solid;
-    border-top: 1px solid;
-    -webkit-transform: scale(0,1);
-      transform: scale(0,1);
-  }
-  
-  a p.effect-box:hover:after,
-  a p.effect-box:hover:before {
-    opacity: 1;
-      -webkit-transform: scale(1);
-      transform: scale(1);
-  }
-
-  a {
-      text-decoration: none;
-  }
-  .txt-white {
-      color: #fff;
-  }
 
 
 /* footer */
@@ -506,4 +481,21 @@ a p.effect-box:before {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+figure .caption {
+    font-size: var(--fs-h3);
+    color: var(--clr-accent);
+    font-weight: var(--fw-bold);
+    text-align: center;
+}
+
+.sub__caption {
+    color: white;
+    font-size: .9rem;
+    font-weight: none;
 }
