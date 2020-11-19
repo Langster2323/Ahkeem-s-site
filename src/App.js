@@ -106,7 +106,7 @@ function App() {
             3,
             {
                 opacity: 1,
-                x: 10,
+                x: 15,
                 ease: Power3.easeOut
             }
         )     
