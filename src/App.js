@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
 import './App.css';
 import ahkeem from './assets/ahkeem-in-japan.jpg';
 import potato from './assets/potato-japan.jpg';
@@ -9,21 +9,83 @@ import passion from './assets/passion.jpg';
 import kyoto from './assets/kyoto.jpg';
 import laptop from './assets/laptop.jpg';
 
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { TweenMax, Power3, ScrollTrigger } from 'gsap';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 library.add(faGithub, faLinkedin)
 
 function App() {
+    let img__intro = useRef(null);
+    let sub__intro = useRef(null);
+    let header__intro = useRef(null);
+
+    useEffect(() => {
+        TweenMax.from(
+            header__intro,
+            3,
+            {
+                opacity: 0,
+                x: -520,
+                ease: Power3.easeOut
+            }
+        )
+        TweenMax.to(
+            header__intro,
+            3,
+            {
+                opacity: 1,
+                x: 20,
+                ease: Power3.easeOut
+            }
+        )
+        TweenMax.from(
+            img__intro,
+            3,
+            {
+                opacity: 0,
+                y: 520,
+                ease: Power3.easeOut
+            }
+        )
+        TweenMax.to(
+            img__intro,
+            3,
+            {
+                opacity: 1,
+                y: -20,
+                ease: Power3.easeOut
+            }
+        )
+        TweenMax.from(
+            sub__intro,
+            3,
+            {
+                opacity: 0,
+                x: 520,
+                ease: Power3.easeOut
+            }
+        )
+        TweenMax.to(
+            sub__intro,
+            3,
+            {
+                opacity: 1,
+                x: -20,
+                ease: Power3.easeOut
+            }
+        )
+    }, [])
+
   return (
     <div className="App">
         <section className="intro" id="home">
-            <h1 className="section__title section__title--intro">
+            <h1 ref={el => {header__intro = el}} className="section__title section__title--intro">
                 Hi, I am <strong>Ahkeem Lang</strong>
             </h1>
-            <p className="section__subtitle section__subtitle--intro">Full Stack Engineer | Data Engineer</p>
-            <img src={ahkeem} alt="Ahkeem" className="intro__img" />
+            <p ref={el => {sub__intro = el}} className="section__subtitle section__subtitle--intro">Full Stack Engineer | Data Engineer</p>
+            <img ref={el => {img__intro = el}} src={ahkeem} alt="Ahkeem" className="intro__img" />
         </section>
 
         <section className="my-services" id="services">
@@ -43,7 +105,7 @@ function App() {
                 
                 <div className="service">
                     <h3>Skills</h3>
-                            <p>ReactJS | Hooks | Context API | GraphQL | PowerBI | Azure Data Factory | Redux | NodeJS | ExpressJS | MongoDB | JavaScript | Axios | RESTful API | ES6 | HTML5 | CSS3 | Google Analytics | Agile | Scrum | Flexbox | Kendo UI | TailwindCSS | Docker | Git | GitHub | Gitlab | Linux | MVC | Webpack| Bootstrap.</p>
+                    <p>ReactJS | Hooks | Context API | GraphQL | PowerBI | Azure Data Factory | Redux | NodeJS | ExpressJS | MongoDB | JavaScript | Axios | RESTful API | ES6 | HTML5 | CSS3 | Google Analytics | Agile | Scrum | Flexbox | Kendo UI | TailwindCSS | Docker | Git | GitHub | Gitlab | Linux | MVC | Webpack| Bootstrap.</p>
                 </div> 
                 
                 <div className="service">
@@ -74,7 +136,7 @@ function App() {
                <p>I love traveling, I've traveled all over the world since I can remember, I was fortuante to experience many 
                  different beautiful cultures and make friends nearly on every continent. I love Japanese culture, 
                  I've visited Japan three times already to visit my wife's family and our friends.</p>
-                 <p>When I'm not at the computer I'm out playing 2v2 or 4v4 sand volleyball with my wife and our 
+                <p>When I'm not at the computer I'm out playing 2v2 or 4v4 sand volleyball with my wife and our 
                  friends. I lead a group that meets nearly every night that likes to play 2v2 and 4v4 sand volleyball.
                  It's pretty tough to get us off the courts!</p>
            </div>
@@ -115,8 +177,8 @@ function App() {
                 <a href="https://github.com/Langster2323/Tabikko-" className="portfolio__item">
                     <img src={strength} alt="" className="portfolio__img" />
                     <figcaption className="caption move-horizontal">Exercise Log
-                    <br /> <span className="sub__caption">MERN stack app to log your workouts.</span></figcaption>
-                    
+                    <br /> <span className="sub__caption">MERN stack app to log your 
+                    workouts.</span></figcaption>
                 </a>
                 </figure>
             </div>

@@ -257,10 +257,12 @@ header {
 
 .intro__img {
     box-shadow: var(--bs);
+    opacity: 0;
 }
 
 .section__subtitle--intro {
     display: inline-block;
+    opacity: 0;
 }
 
 @media (min-width: 600px) {
