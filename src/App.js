@@ -151,7 +151,7 @@ function App() {
         <section className="my-services " id="services">
             <h2 className="section__title section__title--services">What I do</h2>
             <div ref={sectionRef} className="services fadeIn">
-                <div className="service fadeIn">
+                <div className="service ml fadeIn">
                     <h3 className="fadeIn">Data Engineer</h3>
                     <p className="fadeIn">My data engineer experience, isn't as extensive as my 
                         Full Stack Experience but I really do enjoy data engineering.
