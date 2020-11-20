@@ -211,7 +211,8 @@ function App() {
                     <a href="https://github.com/Langster2323/Tic-Tac-Toe-Minimax" className="portfolio__item">
                         <img src={tea} alt="" className="portfolio__img" />
                         <figcaption className="caption">Tic-Tac-Toe Minimax
-                        <br /> <span className="sub__caption">Built with JavaScript</span></figcaption>
+                        <br /> <span className="sub__caption">Built with JavaScript. You're up against an 
+                        AI, you'll nearly always loose against</span></figcaption>
                     </a>
                 </figure>
                 
