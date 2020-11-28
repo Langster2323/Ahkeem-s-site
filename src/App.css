@@ -61,7 +61,6 @@ section {
 }
 
 img {
-    display: block;
     max-width: 100%;
 }
 
@@ -405,7 +404,6 @@ header {
 }
 
 .portfolio__item {
-    background: var(--clr-accent);
     overflow: hidden;
 }
 
