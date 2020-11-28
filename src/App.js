@@ -15,6 +15,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { useIntersection } from 'react-use';
+import ReactGA from 'react-ga';
 
 library.add(faGithub, faLinkedin, faArrowLeft, faArrowRight)
 
@@ -36,12 +37,19 @@ library.add(faGithub, faLinkedin, faArrowLeft, faArrowRight)
 //     }
 // ]
 
+function initializeReactGA() {
+    ReactGA.initialize(process.env.REACT_APP_GA_TRACKING);
+    ReactGA.pageview(window.location.pathname + window.location.search);
+}
+
 function App() {
     let img__intro = useRef(null);
     let sub__intro = useRef(null);
     let header__intro = useRef(null);
     let sectionRef = useRef(null);
     let myselfRef = useRef(null);
+
+    
 
     const intersection = useIntersection(sectionRef, {
         root: null,
@@ -55,6 +63,7 @@ function App() {
     });
 
     useEffect(() => {
+        initializeReactGA();
         Aos.init({duration: 2000})
         TweenMax.from(
             header__intro,
