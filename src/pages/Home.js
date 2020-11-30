@@ -1,7 +1,20 @@
-import React, { useEffect } from 'react';
-import './App.css';
-import ReactGA from 'react-ga';
-import Home from './pages/Home';
+import React, { useRef, useEffect } from 'react';
+import '../App.css';
+
+import Header from '../components/Header';
+import Services from '../components/Services';
+import AboutMe from '../components/AboutMe';
+import MyWork from '../components/MyWork';
+import Footer from '../components/Footer';
+
+import Aos from 'aos';
+import "aos/dist/aos.css";
+import { Power3, gsap, } from 'gsap';
+
+import { useIntersection } from 'react-use';
+
+
+
 
 // const whatIDoArr = [
 //     {
@@ -21,21 +34,18 @@ import Home from './pages/Home';
 //     }
 // ]
 
-function initializeReactGA() {
-    ReactGA.initialize(process.env.REACT_APP_GA_TRACKING);
-    ReactGA.pageview(window.location.pathname + window.location.search);
-}
-
-function App() {
-    useEffect(() => {
-        initializeReactGA();
-    }, [])
+function Home() {
 
   return (
     <div className="App">
-        <Home />
+        <Header />
+        <Services />
+
+        <AboutMe />
+        <MyWork />
+        <Footer />
     </div>
   );
 }
 
-export default App;
+export default Home;
