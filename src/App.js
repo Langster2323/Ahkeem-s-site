@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import './App.css';
 import ReactGA from 'react-ga';
-import Home from './pages/Home';
+import Home from './pages/home-page';
 
 // const whatIDoArr = [
 //     {
