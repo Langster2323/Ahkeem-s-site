@@ -2,10 +2,10 @@ import React, {useEffect} from 'react';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
-import tea from '../assets/tea.jpg';
-import tianshu from '../assets/tianshu.jpg';
-import strength from '../assets/strength.jpg';
-import kyoto from '../assets/kyoto.jpg';
+import tea from '../../assets/tea.jpg';
+import tianshu from '../../assets/tianshu.jpg';
+import strength from '../../assets/strength.jpg';
+import kyoto from '../../assets/kyoto.jpg';
 
 const MyWork = () => {
     useEffect(() => {
