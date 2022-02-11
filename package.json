@@ -13,7 +13,7 @@
     "@testing-library/user-event": "^7.2.1",
     "aos": "^2.3.4",
     "gsap": "^3.5.1",
-    "node-sass": "^5.0.0",
+    "node-sass": "^7.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-ga": "^3.3.0",
