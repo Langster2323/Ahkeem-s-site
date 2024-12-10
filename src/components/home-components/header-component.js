@@ -69,7 +69,7 @@ const Header = () => {
             <h1 ref={el => {header__intro = el}} className="section__title section__title--intro">
                 Hi, I am <strong>Ahkeem Lang!</strong>
             </h1>
-            <p ref={el => {sub__intro = el}} className="section__subtitle section__subtitle--intro">Full Stack Engineer | Data Engineer</p>
+            <p ref={el => {sub__intro = el}} className="section__subtitle section__subtitle--intro">Front End Team Lead</p>
             <img ref={el => {img__intro = el}} src={ahkeem} alt="Ahkeem" className="intro__img" />
         </section>
     )
