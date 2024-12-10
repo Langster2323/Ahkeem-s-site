@@ -27,10 +27,10 @@ const MyWork = () => {
                 </figure>
                 
                 <figure data-aos="zoom-out">
-                    <a href="https://github.com/Langster2323/reacted-auth" className="portfolio__item">
+                    <a href="https://www.spikeitvolleyball.com/" className="portfolio__item">
                         <img src={tianshu} alt="" className="portfolio__img" />
-                        <figcaption className="caption">React Authentication
-                        <br /> <span className="sub__caption">Authenticated user in ReactJS.</span></figcaption>
+                        <figcaption className="caption">Spike It Volleyball
+                        <br /> <span className="sub__caption">Volleyball webapp.</span></figcaption>
                         
                     </a>
                 </figure>
