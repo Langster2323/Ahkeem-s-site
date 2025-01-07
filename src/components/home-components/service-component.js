@@ -49,7 +49,7 @@ const Services = () => {
         </div>
 
         <div className="service">
-          <h3 className="fadeIn">Front End Team Lead</h3>
+          <h3 className="fadeIn">Frontend Team Lead</h3>
           <p className="fadeIn">
             As a Frontend Team Lead, I specialize in crafting seamless user
             interfaces with a strong focus on both developer efficiency and the
