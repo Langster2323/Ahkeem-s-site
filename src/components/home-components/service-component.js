@@ -40,11 +40,11 @@ const Services = () => {
         <div className="service">
           <h3 className="fadeIn">Skills</h3>
           <p className="fadeIn">
-            ReactJS | NextJS | Hooks | Context API | GraphQL | NodeJS |
-            ExpressJS | MongoDB | JavaScript | Axios | RESTful API | ES6 | HTML5
-            | CSS3 | Google Analytics | Agile | Scrum | Flexbox | Kendo UI |
-            TailwindCSS | Grid Layout | Git | GitHub | Gitlab | Linux | MVC |
-            Webpack| Bootstrap.
+            ReactJS | NextJS | OpenAI API | TensorFlow | Hooks | Context API |
+            GraphQL | NodeJS | ExpressJS | MongoDB | JavaScript | Axios |
+            RESTful API | ES6 | HTML5 | CSS3 | Google Analytics | Agile | Scrum
+            | Flexbox | Kendo UI | TailwindCSS | Grid Layout | Git | GitHub |
+            Gitlab | Linux | MVC | Webpack| Bootstrap.
           </p>
         </div>
 
@@ -58,11 +58,18 @@ const Services = () => {
             the Atomic Design Pattern. I have successfully built and maintained
             a robust component library, utilizing tools like Storybook and
             Chromatic to foster collaboration, consistency, and visual
-            regression testing. My leadership approach emphasizes enhancing the
-            developer experience by streamlining workflows, enabling a faster
-            and more intuitive development process while always keeping the end
-            user's needs at the core of every design and implementation
-            decision.
+            regression testing. I have also implemented a design system to
+            enhance component based architecture.
+          </p>
+          <p className="fadeIn">
+            Passionate about LLMs and GenAI with hands-on OpenAI API and
+            TensorFlow experience{" "}
+          </p>
+          <p className="fadeIn">
+            My leadership approach emphasizes enhancing the developer experience
+            by streamlining workflows, enabling a faster and more intuitive
+            development process while always keeping the end user's needs at the
+            core of every design and implementation decision.
           </p>
         </div>
       </div>

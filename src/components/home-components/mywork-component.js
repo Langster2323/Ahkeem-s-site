@@ -30,7 +30,7 @@ const MyWork = () => {
               <br />{" "}
               <span className="sub__caption">
                 Built with JavaScript. You're up against an AI, you'll nearly
-                always loose against
+                always loose against.
               </span>
             </figcaption>
           </a>
@@ -54,15 +54,15 @@ const MyWork = () => {
         </figure>
         <figure data-aos="zoom-out">
           <a
-            href="https://github.com/Langster2323/RSVP-React"
+            href="https://github.com/Langster2323/React-OpenAI-text-to-text"
             className="portfolio__item"
           >
             <img src={kyoto} alt="" className="portfolio__img" />
             <figcaption className="caption move-horizontal">
-              RSVP
+              OpenAI Content Generator
               <br />{" "}
               <span className="sub__caption">
-                A React and Redux app to rsvp for your next event.
+                For all your content generation needs. Built with ReactJS and Vite.
               </span>
             </figcaption>
           </a>
