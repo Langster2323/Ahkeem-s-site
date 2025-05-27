@@ -40,11 +40,12 @@ const Services = () => {
         <div className="service">
           <h3 className="fadeIn">Skills</h3>
           <p className="fadeIn">
-            ReactJS | NextJS | OpenAI API | TensorFlow | Hooks | Context API |
-            GraphQL | NodeJS | ExpressJS | MongoDB | JavaScript | Axios |
-            RESTful API | ES6 | HTML5 | CSS3 | Google Analytics | Agile | Scrum
-            | Flexbox | Kendo UI | TailwindCSS | Grid Layout | Git | GitHub |
-            Gitlab | Linux | MVC | Webpack| Bootstrap.
+            ReactJS | NextJS | JavaScript(ES6) | Python | OpenAI API | LangFlow |
+            LangChain | LangGraph | Ruby on Rails | Hooks | Context API | GraphQL |
+            NodeJS | ExpressJS | MongoDB | PostgreSQL | Axios | RESTful API |
+            ES6 | HTML5 | CSS3 | Google Analytics | Agile | Scrum | Flexbox |
+            Kendo UI | TailwindCSS | Grid Layout | Git | GitHub | Gitlab |
+            Linux | MVC | Webpack| Bootstrap.
           </p>
         </div>
 
