@@ -2,10 +2,10 @@ import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-import tea from "../../assets/tea.jpg";
-import tianshu from "../../assets/tianshu.jpg";
-import strength from "../../assets/strength.jpg";
-import kyoto from "../../assets/kyoto.jpg";
+import tictactoe from "../../assets/tictactoe.png";
+import volleyball from "../../assets/volleyball.png";
+import ragapp from "../../assets/ragapp.png";
+import codegenerator from "../../assets/codegenerator.png";
 
 const MyWork = () => {
   useEffect(() => {
@@ -24,7 +24,7 @@ const MyWork = () => {
             href="https://github.com/Langster2323/Tic-Tac-Toe-Minimax"
             className="portfolio__item"
           >
-            <img src={tea} alt="" className="portfolio__img" />
+            <img src={tictactoe} alt="" className="portfolio__img" />
             <figcaption className="caption">
               Tic-Tac-Toe Minimax
               <br />{" "}
@@ -41,7 +41,7 @@ const MyWork = () => {
             href="https://www.spikeitvolleyball.com/"
             className="portfolio__item"
           >
-            <img src={tianshu} alt="" className="portfolio__img" />
+            <img src={volleyball} alt="" className="portfolio__img" />
             <figcaption className="caption">
               Spike It Volleyball
               <br />{" "}
@@ -57,7 +57,7 @@ const MyWork = () => {
             href="https://github.com/Langster2323/React-OpenAI-text-to-text"
             className="portfolio__item"
           >
-            <img src={kyoto} alt="" className="portfolio__img" />
+            <img src={codegenerator} alt="" className="portfolio__img" />
             <figcaption className="caption move-horizontal">
               OpenAI Content Generator
               <br />{" "}
@@ -69,15 +69,16 @@ const MyWork = () => {
         </figure>
         <figure data-aos="zoom-out">
           <a
-            href="https://github.com/Langster2323/Tabikko-"
+            href="https://github.com/Langster2323/AI-Agent-LangGraph"
             className="portfolio__item"
           >
-            <img src={strength} alt="" className="portfolio__img" />
+            <img src={ragapp} alt="" className="portfolio__img" />
             <figcaption className="caption move-horizontal">
-              Exercise Log
+              AI Chat Assistant
               <br />{" "}
               <span className="sub__caption">
-                MERN stack app to log your workouts.
+                RAG Application. End-to-end chat assistant built with Next.js, PostgreSQL, LangChain, LangGraph, and
+                OpenAI.
               </span>
             </figcaption>
           </a>
