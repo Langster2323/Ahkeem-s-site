@@ -54,15 +54,15 @@ const MyWork = () => {
         </figure>
         <figure data-aos="zoom-out">
           <a
-            href="https://github.com/Langster2323/React-OpenAI-text-to-text"
+            href="https://github.com/Langster2323/AI-Agent-LangChain"
             className="portfolio__item"
           >
             <img src={codegenerator} alt="" className="portfolio__img" />
             <figcaption className="caption move-horizontal">
-              OpenAI Content Generator
+              AI Agent Document Retrieval
               <br />{" "}
               <span className="sub__caption">
-                For all your content generation needs. Built with ReactJS and Vite.
+                Process both unstructured and structured data. Use the agent to answer questions about the documents. While utilzing LangChain and OpenAI.
               </span>
             </figcaption>
           </a>
