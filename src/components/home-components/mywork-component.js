@@ -62,7 +62,7 @@ const MyWork = () => {
               AI Agent Document Retrieval
               <br />{" "}
               <span className="sub__caption">
-                Process both unstructured and structured data. Use the agent to answer questions about the documents. While utilzing LangChain and OpenAI.
+                Process both unstructured and structured data. Use the agent to answer questions about the documents. While utilzing NextJS, Typescript,LangChain and OpenAI.
               </span>
             </figcaption>
           </a>
@@ -77,7 +77,7 @@ const MyWork = () => {
               AI Chat Assistant
               <br />{" "}
               <span className="sub__caption">
-                RAG Application. End-to-end chat assistant built with Next.js, PostgreSQL, LangChain, LangGraph, and
+                RAG Application. End-to-end chat assistant built with Next.js, Typescript, PostgreSQL, LangChain, LangGraph, and
                 OpenAI.
               </span>
             </figcaption>
