@@ -23,6 +23,7 @@ const MyWork = () => {
           <a
             href="https://github.com/Langster2323/Tic-Tac-Toe-Minimax"
             className="portfolio__item"
+            target="_blank"
           >
             <img src={tictactoe} alt="" className="portfolio__img" />
             <figcaption className="caption">
@@ -40,6 +41,7 @@ const MyWork = () => {
           <a
             href="https://www.spikeitvolleyball.com/"
             className="portfolio__item"
+            target="_blank"
           >
             <img src={volleyball} alt="" className="portfolio__img" />
             <figcaption className="caption">
@@ -56,6 +58,7 @@ const MyWork = () => {
           <a
             href="https://github.com/Langster2323/AI-Agent-LangChain"
             className="portfolio__item"
+            target="_blank"
           >
             <img src={codegenerator} alt="" className="portfolio__img" />
             <figcaption className="caption move-horizontal">
@@ -71,6 +74,7 @@ const MyWork = () => {
           <a
             href="https://github.com/Langster2323/AI-Agent-LangGraph"
             className="portfolio__item"
+            target="_blank"
           >
             <img src={ragapp} alt="" className="portfolio__img" />
             <figcaption className="caption move-horizontal">
