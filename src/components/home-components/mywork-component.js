@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import tictactoe from "../../assets/tictactoe.png";
 import volleyball from "../../assets/volleyball.png";
 import ragapp from "../../assets/ragapp.png";
-import codegenerator from "../../assets/codegenerator.png";
+import rag from "../../assets/rag.png";
 
 const MyWork = () => {
   useEffect(() => {
@@ -60,7 +60,7 @@ const MyWork = () => {
             className="portfolio__item"
             target="_blank"
           >
-            <img src={codegenerator} alt="" className="portfolio__img" />
+            <img src={rag} alt="" className="portfolio__img" />
             <figcaption className="caption move-horizontal">
               AI Agent Document Retrieval
               <br />{" "}
